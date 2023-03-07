@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestQA">
+  <test  name="Test">
+  <parameter name ="config" value="qa.properties"/>
+    <classes>
+        <class name="script1.Script2"/>
+     </classes>
+  </test> 
+  <test name="TestStaging">
+  <parameter name ="config" value="staging.properties"/>
+    <classes>
+      <class name="script1.Script1"/>
+    </classes>
+  </test> 
+</suite>
